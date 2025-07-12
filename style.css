@@ -22,6 +22,11 @@
     background: #FD6E0A;
 }
 
+.btn-primary:hover {
+    color: #FD6E0A;
+    background: black;
+}
+
 .section-title {
     font-size: 35px;
     color: #181818;
@@ -91,6 +96,14 @@
     padding: 15px 30px;
     margin-left: 50px;
     border-radius: 5px;
+    transition: 1s ease-in;
+}
+
+.header .btn-primary:hover,
+.header .btn-primary:focus {
+    color: #FD6E0A;
+    background: transparent;
+    border: 1px solid #FD6E0A;
 }
 
 
@@ -152,6 +165,14 @@
     border: none;
     padding: 10px 25px;
     border-radius: 5px;
+    transition: 1s ease-in;
+}
+
+.inner-banner .btn-primary:hover,
+.inner-banner .btn-primary:focus {
+    color: #FD6E0A;
+    background: transparent;
+    border: 1px solid #FD6E0A;
 }
 
 .inner-banner .btn .btn-info {
@@ -162,6 +183,14 @@
     padding: 10px 25px;
     border-radius: 5px;
     margin-left: 28px;
+    transition: 1s ease-in;
+}
+
+.inner-banner .btn-info:hover,
+.inner-banner .btn-info:focus {
+    color: white;
+    background: #FD6E0A;
+    border: 1px solid #FD6E0A;
 }
 
 .banner img {
@@ -305,6 +334,14 @@ hr {
     border: none;
     border-radius: 5px;
     margin-top: 30px;
+    transition: 1s ease-in;
+}
+
+.resume .btn-primary:hover,
+.resume .btn-primary:focus {
+    color: #FD6E0A;
+    background: transparent;
+    border: 1px solid #FD6E0A;
 }
 
 
@@ -312,3 +349,61 @@ hr {
 
 
 /* main start */
+
+
+/* footer stert */
+
+.footer {
+    padding: 100px 230px;
+    display: flex;
+    gap: 80px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer input[type="text"],
+.footer input[type="email"],
+.footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.footer .btn-primary {
+    background: #FD6E0A;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: 1s ease-in;
+}
+
+.footer .section-title {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.footer p {
+    color: #474747;
+    font-size: 16;
+    margin-bottom: 10px;
+}
+
+.footer .btn-primary:hover,
+.footer .btn-primary:focus {
+    color: #FD6E0A;
+    background: transparent;
+    border: 1px solid #FD6E0A;
+}
+
+
+/* footer end */
