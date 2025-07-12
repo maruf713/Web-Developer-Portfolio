@@ -10,12 +10,30 @@
     margin: 0;
 }
 
+.secendary-bg {
+    background-color: #FFF8F3;
+}
+
 .dark-2 {
     color: #474747;
 }
 
 .btn-primary {
     background: #FD6E0A;
+}
+
+.section-title {
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+    margin: 15px;
+    text-align: center;
 }
 
 
@@ -152,7 +170,145 @@
 }
 
 
-/* banner start */
+/* banner end */
 
 
 /* header end */
+
+
+/* main start */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* about start */
+
+.about {
+    border-radius: 10px;
+    padding: 170px 200px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.about .item-describtion {
+    font-weight: 600;
+}
+
+
+/* about end */
+
+
+/* skills start */
+
+.skills {
+    border-radius: 10px;
+    padding: 0px 150px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.skill {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #181818;
+}
+
+.skill-description {
+    font-size: 18px;
+    color: #757575;
+    line-height: 1.4em;
+}
+
+
+/* skills end */
+
+
+/* resume start */
+
+.resume {
+    margin: 120px 0px 80px 130px;
+    padding: 0;
+}
+
+.resume .section-title {
+    margin-bottom: 100px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 20px;
+}
+
+.resume-column-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.experence-title {
+    font-size: 25px;
+    color: #474747;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.experence-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.experence-description {
+    font-size: 16px;
+    color: #757575;
+}
+
+hr {
+    margin: 25px 0px;
+}
+
+.btn-resume {
+    text-align: center;
+}
+
+.resume .btn-resume .btn-primary {
+    background: #FD6E0A;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+
+/* resume end */
+
+
+/* main start */
